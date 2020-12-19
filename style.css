@@ -37,11 +37,17 @@ body {
 }
 
 .instagram-phone-screen {
+    opacity: 0;
     position: absolute;
     top: 99px;
     left: 150px;
     width: 242px;
     height: 429px;
+    transition: opacity 2000ms;
+}
+
+.show {
+    opacity: 1;
 }
 
 .instagram-continue {
